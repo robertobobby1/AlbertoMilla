@@ -25,3 +25,4 @@ yarn-error.log*
 .vscode/
 src/images/missing
 src/images/missing.zip
+package-lock.json
