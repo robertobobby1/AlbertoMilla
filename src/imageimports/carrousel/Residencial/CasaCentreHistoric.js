@@ -1,22 +1,22 @@
-import computerImage1 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/1.jpg';
-import computerImage2 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/2.jpg';
-import computerImage3 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/3.jpg';
-import computerImage4 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/4.jpg';
-import computerImage6 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/6.jpg';
-import computerImage7 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/7.jpg';
-import computerImage8 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/8.jpg';
-import computerImage9 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/9.jpg';
-import computerImage10 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/91.jpg';
+import computerImage1 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/1.webp';
+import computerImage2 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/2.webp';
+import computerImage3 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/3.webp';
+import computerImage4 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/4.webp';
+import computerImage6 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/6.webp';
+import computerImage7 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/7.webp';
+import computerImage8 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/8.webp';
+import computerImage9 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/9.webp';
+import computerImage10 from '../../../images/modified/RESIDENCIAL/CASACENTREHISTORIC/91.webp';
 
-//NOTFOUND import phoneImage1 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/1.jpg';
-import phoneImage2 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/2.jpg';
-import phoneImage3 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/3.jpg';
-import phoneImage4 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/4.jpg';
-import phoneImage6 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/6.jpg';
-import phoneImage7 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/7.jpg';
-import phoneImage8 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/8.jpg';
-import phoneImage9 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/9.jpg';
-//NOTFOUND import phoneImage10 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/91.jpg';
+import phoneImage1 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/1.webp';
+import phoneImage2 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/2.webp';
+import phoneImage3 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/3.webp';
+import phoneImage4 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/4.webp';
+import phoneImage6 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/6.webp';
+import phoneImage7 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/7.webp';
+import phoneImage8 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/8.webp';
+import phoneImage9 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/9.webp';
+//NOTFOUND import phoneImage10 from '../../../images/originals/RESIDENCIAL/CASACENTREHISTORIC/91.webp';
 
 const computerImages = [
   computerImage1,
@@ -31,6 +31,7 @@ const computerImages = [
 ];
 
 const phoneImages = [
+  phoneImage1,
   phoneImage2,
   phoneImage3,
   phoneImage4,

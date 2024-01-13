@@ -1,13 +1,13 @@
-import residencialImage1 from '../../images/modified/PORTADA/RESIDENCIAL/CASAALBEREDA.jpg'
-import residencialImage2 from '../../images/modified/PORTADA/RESIDENCIAL/CASACENTREHISTORIC.jpg'
-import residencialImage3 from '../../images/modified/PORTADA/RESIDENCIAL/CASAHORTS.jpg'
-import residencialImage4 from '../../images/modified/PORTADA/RESIDENCIAL/CASALABEGA.jpg'
-import residencialImage5 from '../../images/modified/PORTADA/RESIDENCIAL/CASALALCUDIA.jpg'
-import residencialImage6 from '../../images/modified/PORTADA/RESIDENCIAL/CASAMOLIDEMAGALLO.jpg'
-import residencialImage7 from '../../images/modified/PORTADA/RESIDENCIAL/CASASANTAANA.jpg'
-import residencialImage8 from '../../images/modified/PORTADA/RESIDENCIAL/EDIFICICHAPLINSILLA.jpg'
-import residencialImage9 from '../../images/modified/PORTADA/RESIDENCIAL/EDIFICILLUISVIVES.jpg'
-import residencialImage10 from '../../images/modified/PORTADA/RESIDENCIAL/EDIFICINOUALGEMESI.jpg'
+import residencialImage1 from '../../images/modified/PORTADA/RESIDENCIAL/CASAALBEREDA.webp'
+import residencialImage2 from '../../images/modified/PORTADA/RESIDENCIAL/CASACENTREHISTORIC.webp'
+import residencialImage3 from '../../images/modified/PORTADA/RESIDENCIAL/CASAHORTS.webp'
+import residencialImage4 from '../../images/modified/PORTADA/RESIDENCIAL/CASALABEGA.webp'
+import residencialImage5 from '../../images/modified/PORTADA/RESIDENCIAL/CASALALCUDIA.webp'
+import residencialImage6 from '../../images/modified/PORTADA/RESIDENCIAL/CASAMOLIDEMAGALLO.webp'
+import residencialImage7 from '../../images/modified/PORTADA/RESIDENCIAL/CASASANTAANA.webp'
+import residencialImage8 from '../../images/modified/PORTADA/RESIDENCIAL/EDIFICICHAPLINSILLA.webp'
+import residencialImage9 from '../../images/modified/PORTADA/RESIDENCIAL/EDIFICILLUISVIVES.webp'
+import residencialImage10 from '../../images/modified/PORTADA/RESIDENCIAL/EDIFICINOUALGEMESI.webp'
 
 const residencialImages = [
     {src: residencialImage1,  route: "/Proyectos/Residencial/CasaAlbereda", name: "Casa Albereeda"},

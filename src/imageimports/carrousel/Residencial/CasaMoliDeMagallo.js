@@ -1,24 +1,24 @@
-import computerImage1 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/1.jpg';
-import computerImage2 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/2.jpg';
-import computerImage3 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/3.jpg';
-import computerImage4 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/4.jpg';
-import computerImage5 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/5.jpg';
-import computerImage6 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/6.jpg';
-import computerImage7 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/7.jpg';
-import computerImage8 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/8.jpg';
-import computerImage9 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/9.jpg';
-import computerImage10 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/91.jpg';
+import computerImage1 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/1.webp';
+import computerImage2 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/2.webp';
+import computerImage3 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/3.webp';
+import computerImage4 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/4.webp';
+import computerImage5 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/5.webp';
+import computerImage6 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/6.webp';
+import computerImage7 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/7.webp';
+import computerImage8 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/8.webp';
+import computerImage9 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/9.webp';
+import computerImage10 from '../../../images/modified/RESIDENCIAL/CASAMOLIDEMAGALLO/91.webp';
 
-import phoneImage1 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/1.jpg';
-//NOTFOUND import phoneImage2 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/2.jpg';
-import phoneImage3 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/3.jpg';
-import phoneImage4 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/4.jpg';
-import phoneImage5 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/5.jpg';
-import phoneImage6 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/6.jpg';
-//NOTFOUND import phoneImage7 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/7.jpg';
-import phoneImage8 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/8.jpg';
-import phoneImage9 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/9.jpg';
-//NOTFOUND import phoneImage10 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/91.jpg';
+import phoneImage1 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/1.webp';
+//NOTFOUND import phoneImage2 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/2.webp';
+import phoneImage3 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/3.webp';
+import phoneImage4 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/4.webp';
+import phoneImage5 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/5.webp';
+import phoneImage6 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/6.webp';
+//NOTFOUND import phoneImage7 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/7.webp';
+import phoneImage8 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/8.webp';
+import phoneImage9 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/9.webp';
+//NOTFOUND import phoneImage10 from '../../../images/originals/RESIDENCIAL/CASAMOLIDEMAGALLO/91.webp';
 
 const computerImages = [
   computerImage1,

@@ -1,7 +1,7 @@
-import privadoImage1 from '../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/CENTROLOGISTICOCONSUM.jpg'
-import privadoImage2 from '../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/COMEDORCONSUM.jpg'
-import privadoImage3 from '../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/ESTUDIODEARQUITECTURA.jpg'
-import privadoImage4 from '../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/JOYERIA.jpg'
+import privadoImage1 from '../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/CENTROLOGISTICOCONSUM.webp'
+import privadoImage2 from '../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/COMEDORCONSUM.webp'
+import privadoImage3 from '../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/ESTUDIODEARQUITECTURA.webp'
+import privadoImage4 from '../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/JOYERIA.webp'
 
 const privadoImages = [
     {src: privadoImage1, route: "/Proyectos/Privado/CentroLogisticoConsum", name: "Centro Logistico Consum"}, 

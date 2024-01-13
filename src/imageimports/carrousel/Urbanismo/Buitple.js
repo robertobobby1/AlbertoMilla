@@ -1,8 +1,8 @@
-import computerImage1 from '../../../images/modified/URBANISMO/BUITPLE/1.jpg';
-import computerImage2 from '../../../images/modified/URBANISMO/BUITPLE/2.jpg';
+import computerImage1 from '../../../images/modified/URBANISMO/BUITPLE/1.webp';
+import computerImage2 from '../../../images/modified/URBANISMO/BUITPLE/2.webp';
 
-import phoneImage1 from '../../../images/originals/URBANISMO/BUITPLE/1.jpg';
-import phoneImage2 from '../../../images/originals/URBANISMO/BUITPLE/2.jpg';
+import phoneImage1 from '../../../images/originals/URBANISMO/BUITPLE/1.webp';
+import phoneImage2 from '../../../images/originals/URBANISMO/BUITPLE/2.webp';
 
 const computerImages = [
   computerImage1,

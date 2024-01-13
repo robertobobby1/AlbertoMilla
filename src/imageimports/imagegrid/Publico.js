@@ -1,7 +1,7 @@
-import publicoImage1 from '../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CASALJOVESILLA.jpg'
-import publicoImage2 from '../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CENTRODEFORMACIONSILLA.jpg'
-import publicoImage3 from '../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CENTROMULTIFUNCIONALCARMENVALERO.jpg'
-import publicoImage4 from '../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/POLIDEPORTIVOXIRIVELLA.jpg'
+import publicoImage1 from '../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CASALJOVESILLA.webp'
+import publicoImage2 from '../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CENTRODEFORMACIONSILLA.webp'
+import publicoImage3 from '../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CENTROMULTIFUNCIONALCARMENVALERO.webp'
+import publicoImage4 from '../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/POLIDEPORTIVOXIRIVELLA.webp'
 
 const publicoImages = [
     {src: publicoImage1,  route: "/Proyectos/Publico/CasalJoveSilla", name: "Casal Jove Silla"},

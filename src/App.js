@@ -26,7 +26,7 @@ import CentroDeFormacionSilla from './routes/Proyectos/Publico/CentroDeFormacion
 import CentroMultifuncionalCarmenValero from './routes/Proyectos/Publico/CentroMultifuncionalCarmenValero'
 import PolideportivoXirivella from './routes/Proyectos/Publico/PolideportivoXirivella'
 // residencial
-//NOTFOUND import CasaAlbereda from './routes/Proyectos/Residencial/CasaAlbereda'
+import CasaAlbereda from './routes/Proyectos/Residencial/CasaAlbereda'
 import CasaAlcudia from './routes/Proyectos/Residencial/CasaAlcudia'
 import CasaCentreHistoric from './routes/Proyectos/Residencial/CasaCentreHistoric'
 import CasaHorts from './routes/Proyectos/Residencial/CasaHorts'
@@ -73,8 +73,8 @@ const router = createBrowserRouter([
       { path: "/Proyectos/Publico/CentroDeFormacionSilla", element: <CentroDeFormacionSilla /> },
       { path: "/Proyectos/Publico/CentroMultifuncionalCarmenValero", element: <CentroMultifuncionalCarmenValero /> },
       { path: "/Proyectos/Publico/PolideportivoXirivella", element: <PolideportivoXirivella /> },
-      /** Routes for Project galleries (Residencial)
-      { path: "/Proyectos/Residencial/CasaAlbereda", element: <CasaAlbereda /> },*/
+      /** Routes for Project galleries (Residencial)*/
+      { path: "/Proyectos/Residencial/CasaAlbereda", element: <CasaAlbereda /> },
       { path: "/Proyectos/Residencial/CasaHorts", element: <CasaHorts /> },
       { path: "/Proyectos/Residencial/CasaLaBega", element: <CasaLaBega /> },
       { path: "/Proyectos/Residencial/CasaMoliDeMagallo", element: <CasaMoliDeMagallo /> },

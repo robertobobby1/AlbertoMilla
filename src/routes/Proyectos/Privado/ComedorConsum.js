@@ -2,7 +2,7 @@ import { useContext, useEffect } from 'react';
 import { NavigationBarContext } from '../../../components/navigationbar/NavigationBarContext';
 import {
     computerImages,
-   // phoneImages,
+    phoneImages,
   } from '../../../imageimports/carrousel/Privado/ComedorConsum';
 import ProjectGallery from '../../../components/ProjectGallery/ProjectGallery';
   
@@ -13,7 +13,7 @@ function ComedorConsum() {
     }, [])
 
     return (
-        <ProjectGallery computerImages={computerImages}/>
+        <ProjectGallery computerImages={computerImages} phoneImages={phoneImages}/>
     );
 }
 
