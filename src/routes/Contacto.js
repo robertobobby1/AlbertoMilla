@@ -8,7 +8,7 @@ import Checkbox from '@mui/material/Checkbox';
 function Contacto() {
     const {secondLevelNav, setSecondLevelNav} = useContext(NavigationBarContext);
     useEffect(() => {
-        setSecondLevelNav(false);    
+        setSecondLevelNav(false);
     }, [])
 
     const [checked1, setChecked1] = useState(false);
