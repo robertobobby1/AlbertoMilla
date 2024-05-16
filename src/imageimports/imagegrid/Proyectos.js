@@ -15,6 +15,10 @@ import proyectosImage15 from "../../images/modified/PORTADA/RESIDENCIAL/CASASANT
 import proyectosImage16 from "../../images/modified/PORTADA/RESIDENCIAL/EDIFICICHAPLINSILLA.webp";
 import proyectosImage17 from "../../images/modified/PORTADA/RESIDENCIAL/EDIFICILLUISVIVES.webp";
 import proyectosImage18 from "../../images/modified/PORTADA/RESIDENCIAL/EDIFICINOUALGEMESI.webp";
+import proyectosImage21 from "../../images/modified/PORTADA/RESIDENCIAL/CASABODI.webp";
+import proyectosImage22 from "../../images/modified/PORTADA/RESIDENCIAL/CASACUBA.webp";
+import proyectosImage23 from "../../images/modified/PORTADA/RESIDENCIAL/CASAMOLINER.webp";
+import proyectosImage24 from "../../images/modified/PORTADA/RESIDENCIAL/VILLACARMEN.webp";
 import proyectosImage19 from "../../images/modified/PORTADA/URBANISMO/BUITPLE.webp";
 import proyectosImage20 from "../../images/modified/PORTADA/URBANISMO/SANTAANA.webp";
 
@@ -63,6 +67,26 @@ const proyectosImages = [
     src: proyectosImage9,
     route: "/Proyectos/Residencial/CasaAlbereda",
     name: "Casa Albereda",
+  },
+  {
+    src: proyectosImage21,
+    route: "/Proyectos/Residencial/CasaBodi",
+    name: "Casa Bodi",
+  },
+  {
+    src: proyectosImage22,
+    route: "/Proyectos/Residencial/CasaCuba",
+    name: "Casa Cuba",
+  },
+  {
+    src: proyectosImage23,
+    route: "/Proyectos/Residencial/CasaMoliner",
+    name: "Casa Moliner",
+  },
+  {
+    src: proyectosImage24,
+    route: "/Proyectos/Residencial/VillaCarmen",
+    name: "Villa Carmen",
   },
   {
     src: proyectosImage10,

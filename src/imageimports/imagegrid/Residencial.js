@@ -7,6 +7,10 @@ import residencialImage7 from "../../images/modified/PORTADA/RESIDENCIAL/CASASAN
 import residencialImage8 from "../../images/modified/PORTADA/RESIDENCIAL/EDIFICICHAPLINSILLA.webp";
 import residencialImage9 from "../../images/modified/PORTADA/RESIDENCIAL/EDIFICILLUISVIVES.webp";
 import residencialImage10 from "../../images/modified/PORTADA/RESIDENCIAL/EDIFICINOUALGEMESI.webp";
+import residencialImage11 from "../../images/modified/PORTADA/RESIDENCIAL/CASABODI.webp";
+import residencialImage12 from "../../images/modified/PORTADA/RESIDENCIAL/CASACUBA.webp";
+import residencialImage13 from "../../images/modified/PORTADA/RESIDENCIAL/CASAMOLINER.webp";
+import residencialImage14 from "../../images/modified/PORTADA/RESIDENCIAL/VILLACARMEN.webp";
 
 const residencialImages = [
   {
@@ -53,6 +57,26 @@ const residencialImages = [
     src: residencialImage10,
     route: "/Proyectos/Residencial/EdificiNouAlgemesi",
     name: "Edifici Nou Algemesi",
+  },
+  {
+    src: residencialImage11,
+    route: "/Proyectos/Residencial/CasaBodi",
+    name: "Casa Bodi",
+  },
+  {
+    src: residencialImage12,
+    route: "/Proyectos/Residencial/CasaCuba",
+    name: "Casa Cuba",
+  },
+  {
+    src: residencialImage13,
+    route: "/Proyectos/Residencial/CasaMoliner",
+    name: "Casa Moliner",
+  },
+  {
+    src: residencialImage14,
+    route: "/Proyectos/Residencial/VillaCarmen",
+    name: "Villa Carmen",
   },
 ];
 

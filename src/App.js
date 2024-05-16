@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import CookieConsent from "react-cookie-consent";
 
-import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { NavigationBarProvider } from "./components/navigationbar/NavigationBarContext";
 
 import Layout from "./components/layout/Layout";
@@ -27,6 +27,10 @@ import CentroMultifuncionalCarmenValero from "./routes/Proyectos/Publico/CentroM
 import PolideportivoXirivella from "./routes/Proyectos/Publico/PolideportivoXirivella";
 // residencial
 import CasaAlbereda from "./routes/Proyectos/Residencial/CasaAlbereda";
+import CasaBodi from "./routes/Proyectos/Residencial/CasaBodi";
+import CasaCuba from "./routes/Proyectos/Residencial/CasaCuba";
+import CasaMoliner from "./routes/Proyectos/Residencial/CasaMoliner";
+import VillaCarmen from "./routes/Proyectos/Residencial/VillaCarmen";
 import CasaAlcudia from "./routes/Proyectos/Residencial/CasaAlcudia";
 import CasaCentreHistoric from "./routes/Proyectos/Residencial/CasaCentreHistoric";
 import CasaHorts from "./routes/Proyectos/Residencial/CasaHorts";
@@ -96,6 +100,10 @@ const router = createBrowserRouter([
         element: <CasaAlbereda />,
       },
       { path: "/Proyectos/Residencial/CasaHorts", element: <CasaHorts /> },
+      { path: "/Proyectos/Residencial/CasaBodi", element: <CasaBodi /> },
+      { path: "/Proyectos/Residencial/CasaCuba", element: <CasaCuba /> },
+      { path: "/Proyectos/Residencial/CasaMoliner", element: <CasaMoliner /> },
+      { path: "/Proyectos/Residencial/VillaCarmen", element: <VillaCarmen /> },
       { path: "/Proyectos/Residencial/CasaLaBega", element: <CasaLaBega /> },
       {
         path: "/Proyectos/Residencial/CasaSantaAna",
