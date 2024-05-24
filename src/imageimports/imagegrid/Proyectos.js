@@ -25,34 +25,24 @@ import proyectosImage20 from "../../images/modified/PORTADA/URBANISMO/SANTAANA.w
 
 const proyectosImages = [
   {
-    src: proyectosImage1,
-    route: "/Proyectos/Privado/CentroLogisticoConsum",
-    name: "Centro Logistico Consum",
-  },
-  {
-    src: proyectosImage2,
-    route: "/Proyectos/Privado/ComedorConsum",
-    name: "Comedor Consum",
-  },
-  {
     src: proyectosImage3,
     route: "/Proyectos/Privado/EstudioDeArquitectura",
     name: "Estudio de Arquitectura",
   },
   {
-    src: proyectosImage4,
-    route: "/Proyectos/Privado/Joyeria",
-    name: "Joyeria",
+    src: proyectosImage13,
+    route: "/Proyectos/Residencial/CasaAlcudia",
+    name: "Casa L'Alcudia",
   },
   {
-    src: proyectosImage5,
-    route: "/Proyectos/Publico/CasalJoveSilla",
-    name: "Casal Jove Silla",
+    src: proyectosImage1,
+    route: "/Proyectos/Privado/CentroLogisticoConsum",
+    name: "Centro Logistico Consum",
   },
   {
-    src: proyectosImage6,
-    route: "/Proyectos/Publico/CentroDeFormacionSilla",
-    name: "Centro de Formacion Silla",
+    src: proyectosImage22,
+    route: "/Proyectos/Residencial/CasaCuba",
+    name: "Casa Cuba",
   },
   {
     src: proyectosImage7,
@@ -60,9 +50,24 @@ const proyectosImages = [
     name: "Centro Multifuncional",
   },
   {
-    src: proyectosImage8,
-    route: "/Proyectos/Publico/PolideportivoXirivella",
-    name: "Polideportivo Xirivella",
+    src: proyectosImage15,
+    route: "/Proyectos/Residencial/CasaSantaAna",
+    name: "Casa Santa Ana",
+  },
+  {
+    src: proyectosImage6,
+    route: "/Proyectos/Publico/CentroDeFormacionSilla",
+    name: "Centro de Formacion Silla",
+  },
+  {
+    src: proyectosImage11,
+    route: "/Proyectos/Residencial/CasaHorts",
+    name: "Casa Horts",
+  },
+  {
+    src: proyectosImage23,
+    route: "/Proyectos/Residencial/CasaMoliner",
+    name: "Casa Moliner",
   },
   {
     src: proyectosImage25,
@@ -75,34 +80,14 @@ const proyectosImages = [
     name: "Casa Albereda",
   },
   {
-    src: proyectosImage21,
-    route: "/Proyectos/Residencial/CasaBodi",
-    name: "Casa Bodi",
-  },
-  {
-    src: proyectosImage22,
-    route: "/Proyectos/Residencial/CasaCuba",
-    name: "Casa Cuba",
-  },
-  {
-    src: proyectosImage23,
-    route: "/Proyectos/Residencial/CasaMoliner",
-    name: "Casa Moliner",
-  },
-  {
     src: proyectosImage24,
     route: "/Proyectos/Residencial/VillaCarmen",
     name: "Villa Carmen",
   },
   {
-    src: proyectosImage10,
-    route: "/Proyectos/Residencial/CasaCentreHistoric",
-    name: "Casa centre Historic",
-  },
-  {
-    src: proyectosImage11,
-    route: "/Proyectos/Residencial/CasaHorts",
-    name: "Casa Horts",
+    src: proyectosImage2,
+    route: "/Proyectos/Privado/ComedorConsum",
+    name: "Comedor Consum",
   },
   {
     src: proyectosImage12,
@@ -110,24 +95,39 @@ const proyectosImages = [
     name: "Casa La Bega",
   },
   {
-    src: proyectosImage13,
-    route: "/Proyectos/Residencial/CasaAlcudia",
-    name: "Casa L'Alcudia",
+    src: proyectosImage10,
+    route: "/Proyectos/Residencial/CasaCentreHistoric",
+    name: "Casa centre Historic",
   },
   {
-    src: proyectosImage15,
-    route: "/Proyectos/Residencial/CasaSantaAna",
-    name: "Casa Santa Ana",
+    src: proyectosImage21,
+    route: "/Proyectos/Residencial/CasaBodi",
+    name: "Casa Bodi",
   },
   {
-    src: proyectosImage16,
-    route: "/Proyectos/Residencial/EdificiChaplinSilla",
-    name: "Edifici Chaplin Silla",
+    src: proyectosImage20,
+    route: "/Proyectos/Urbanismo/SantaAna",
+    name: "Santa Ana",
+  },
+  {
+    src: proyectosImage8,
+    route: "/Proyectos/Publico/PolideportivoXirivella",
+    name: "Polideportivo Xirivella",
+  },
+  {
+    src: proyectosImage4,
+    route: "/Proyectos/Privado/Joyeria",
+    name: "Joyeria",
   },
   {
     src: proyectosImage17,
     route: "/Proyectos/Residencial/EdificiLluisVives",
     name: "Edifici Lluis Vives",
+  },
+  {
+    src: proyectosImage5,
+    route: "/Proyectos/Publico/CasalJoveSilla",
+    name: "Casal Jove Silla",
   },
   {
     src: proyectosImage18,
@@ -138,11 +138,6 @@ const proyectosImages = [
     src: proyectosImage19,
     route: "/Proyectos/Urbanismo/Buitple",
     name: "Buitple",
-  },
-  {
-    src: proyectosImage20,
-    route: "/Proyectos/Urbanismo/SantaAna",
-    name: "Santa Ana",
   },
 ];
 

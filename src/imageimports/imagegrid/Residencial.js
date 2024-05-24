@@ -14,29 +14,14 @@ import residencialImage14 from "../../images/modified/PORTADA/RESIDENCIAL/VILLAC
 
 const residencialImages = [
   {
-    src: residencialImage1,
-    route: "/Proyectos/Residencial/CasaAlbereda",
-    name: "Casa Albereda",
-  },
-  {
-    src: residencialImage2,
-    route: "/Proyectos/Residencial/CasaCentreHistoric",
-    name: "Casa centre Historic",
-  },
-  {
-    src: residencialImage3,
-    route: "/Proyectos/Residencial/CasaHorts",
-    name: "Casa Horts",
-  },
-  {
-    src: residencialImage4,
-    route: "/Proyectos/Residencial/CasaLaBega",
-    name: "Casa La Bega",
-  },
-  {
     src: residencialImage5,
     route: "/Proyectos/Residencial/CasaAlcudia",
     name: "Casa L'Alcudia",
+  },
+  {
+    src: residencialImage12,
+    route: "/Proyectos/Residencial/CasaCuba",
+    name: "Casa Cuba",
   },
   {
     src: residencialImage7,
@@ -44,9 +29,39 @@ const residencialImages = [
     name: "Casa Santa Ana",
   },
   {
-    src: residencialImage8,
-    route: "/Proyectos/Residencial/EdificiChaplinSilla",
-    name: "Edifici Chaplin Silla",
+    src: residencialImage3,
+    route: "/Proyectos/Residencial/CasaHorts",
+    name: "Casa Horts",
+  },
+  {
+    src: residencialImage13,
+    route: "/Proyectos/Residencial/CasaMoliner",
+    name: "Casa Moliner",
+  },
+  {
+    src: residencialImage1,
+    route: "/Proyectos/Residencial/CasaAlbereda",
+    name: "Casa Albereda",
+  },
+  {
+    src: residencialImage14,
+    route: "/Proyectos/Residencial/VillaCarmen",
+    name: "Villa Carmen",
+  },
+  {
+    src: residencialImage4,
+    route: "/Proyectos/Residencial/CasaLaBega",
+    name: "Casa La Bega",
+  },
+  {
+    src: residencialImage2,
+    route: "/Proyectos/Residencial/CasaCentreHistoric",
+    name: "Casa centre Historic",
+  },
+  {
+    src: residencialImage11,
+    route: "/Proyectos/Residencial/CasaBodi",
+    name: "Casa Bodi",
   },
   {
     src: residencialImage9,
@@ -57,26 +72,6 @@ const residencialImages = [
     src: residencialImage10,
     route: "/Proyectos/Residencial/EdificiNouAlgemesi",
     name: "Edifici Nou Algemesi",
-  },
-  {
-    src: residencialImage11,
-    route: "/Proyectos/Residencial/CasaBodi",
-    name: "Casa Bodi",
-  },
-  {
-    src: residencialImage12,
-    route: "/Proyectos/Residencial/CasaCuba",
-    name: "Casa Cuba",
-  },
-  {
-    src: residencialImage13,
-    route: "/Proyectos/Residencial/CasaMoliner",
-    name: "Casa Moliner",
-  },
-  {
-    src: residencialImage14,
-    route: "/Proyectos/Residencial/VillaCarmen",
-    name: "Villa Carmen",
   },
 ];
 

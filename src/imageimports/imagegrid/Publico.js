@@ -6,9 +6,9 @@ import publicoImage5 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/COB
 
 const publicoImages = [
   {
-    src: publicoImage1,
-    route: "/Proyectos/Publico/CasalJoveSilla",
-    name: "Casal Jove Silla",
+    src: publicoImage3,
+    route: "/Proyectos/Publico/CentroMultifuncionalCarmenValero",
+    name: "Centro Multifuncional",
   },
   {
     src: publicoImage2,
@@ -16,9 +16,9 @@ const publicoImages = [
     name: "Centro de Formacion Silla",
   },
   {
-    src: publicoImage3,
-    route: "/Proyectos/Publico/CentroMultifuncionalCarmenValero",
-    name: "Centro Multifuncional",
+    src: publicoImage5,
+    route: "/Proyectos/Publico/CobertaDePatinatge",
+    name: "Coberta de Patinatge",
   },
   {
     src: publicoImage4,
@@ -26,9 +26,9 @@ const publicoImages = [
     name: "Polideportivo Xirivella",
   },
   {
-    src: publicoImage5,
-    route: "/Proyectos/Publico/CobertaDePatinatge",
-    name: "Coberta de Patinatge",
+    src: publicoImage1,
+    route: "/Proyectos/Publico/CasalJoveSilla",
+    name: "Casal Jove Silla",
   },
 ];
 
