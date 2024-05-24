@@ -118,7 +118,8 @@ function Contacto() {
     data.append("nombre", nombre);
     data.append("email", email);
     data.append("telefono", telefono);
-    data.append("mensaje", web);
+    data.append("url", web);
+    data.append("mensaje", mensaje);
     data.append("cenviar", "Enviar mensaje");
 
     // call to backend

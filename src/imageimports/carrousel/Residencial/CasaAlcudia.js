@@ -7,7 +7,6 @@ import image6 from "../../../images/originals/RESIDENCIAL/CASALALCUDIA/6.webp";
 import image7 from "../../../images/originals/RESIDENCIAL/CASALALCUDIA/7.webp";
 import image8 from "../../../images/originals/RESIDENCIAL/CASALALCUDIA/8.webp";
 import image9 from "../../../images/originals/RESIDENCIAL/CASALALCUDIA/9.webp";
-import image10 from "../../../images/originals/RESIDENCIAL/CASALALCUDIA/91.webp";
 
 const images = [
   image1,
@@ -19,7 +18,6 @@ const images = [
   image7,
   image8,
   image9,
-  image10,
 ];
 
 export { images };
