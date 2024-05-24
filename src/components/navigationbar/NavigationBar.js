@@ -46,9 +46,15 @@ function NavigationBar() {
         </div>
       </div>
       <div className="center">
-        <Link to="/Proyectos"> Proyectos </Link>
-        <Link to="/Contacto"> Contacto </Link>
-        <Link to="/Estudio"> Estudio </Link>
+        <Link to="/Proyectos">
+          <b>Proyectos</b>
+        </Link>
+        <Link to="/Contacto">
+          <b>Contacto</b>
+        </Link>
+        <Link to="/Estudio">
+          <b>Estudio</b>
+        </Link>
       </div>
       {secondLevelNav ? (
         <div className="center">

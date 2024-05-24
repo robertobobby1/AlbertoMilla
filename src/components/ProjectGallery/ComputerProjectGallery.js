@@ -1,5 +1,5 @@
 import { Carousel } from "react-carousel-minimal";
-import * as React from "react";
+import { useEffect } from "react";
 
 function ComputerProjectGallery({ ReactImages }) {
   let data = [];
@@ -15,6 +15,13 @@ function ComputerProjectGallery({ ReactImages }) {
     fontSize: "20px",
     fontWeight: "bold",
   };
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 80,
+      behavior: "smooth",
+    });
+  });
 
   return (
     <div
