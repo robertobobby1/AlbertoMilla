@@ -9,8 +9,8 @@ function ProjectGallery({ computerImages, phoneImages }) {
 
   return (
     <div>
-      <MediaQuery minWidth={951}>{computerMenu}</MediaQuery>
-      <MediaQuery maxWidth={950}>{mobileMenu}</MediaQuery>
+      <MediaQuery minWidth={1051}>{computerMenu}</MediaQuery>
+      <MediaQuery maxWidth={1050}>{mobileMenu}</MediaQuery>
     </div>
   );
 }

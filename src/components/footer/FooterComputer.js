@@ -80,7 +80,7 @@ function FooterComputer() {
           </div>
         </div>
       </div>
-      <aside className="footerMargin text-sm">
+      <aside className="footerMargin text-xs">
         <p>Copyright © 2023 - Roberto Milla</p>
       </aside>
     </>

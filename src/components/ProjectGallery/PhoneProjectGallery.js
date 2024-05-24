@@ -2,11 +2,11 @@ import ResponsiveGallery from "react-responsive-gallery";
 import * as React from "react";
 
 const widthSizes = {
-  xs: "900",
-  s: "900",
-  m: "900",
-  l: "900",
-  xl: "900",
+  xs: "1060",
+  s: "1060",
+  m: "1060",
+  l: "1060",
+  xl: "1060",
 };
 
 const imagePaddings = {
