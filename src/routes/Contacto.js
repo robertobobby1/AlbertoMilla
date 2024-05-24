@@ -21,77 +21,110 @@ function Contacto() {
   const [telefono, setTelefono] = useState("");
   const [mensaje, setMensaje] = useState("");
 
-  const [nombreIsValid, setNombreIsValid] = useState(false);
-  const [emailIsValid, setEmailIsValid] = useState(false);
-  const [webIsValid, setWebIsValid] = useState(false);
-  const [telefonoIsValid, setTelefonoIsValid] = useState(false);
-  const [mensajeIsValid, setMensajeIsValid] = useState(false);
+  const [nombreIsInvalid, setNombreIsInvalid] = useState(true);
+  const [emailIsInvalid, setEmailIsInvalid] = useState(true);
+  const [telephoneIsInvalid, setTelephoneIsInvalid] = useState(false);
+  const [mensajeIsInvalid, setMensajeIsInvalid] = useState(true);
+
+  const checkbox1Changed = (event) => {
+    setChecked1(event.target.checked);
+  };
+  const checkbox2Changed = (event) => {
+    setChecked2(event.target.checked);
+  };
 
   const nombreChanged = (event) => {
     setNombre(event.target.value);
-    nombre == "" ? setNombreIsValid(true) : setNombreIsValid(false);
+    isNameValid(event.target.value);
   };
   const emailChanged = (event) => {
     setEmail(event.target.value);
-    email == "" ? setEmailIsValid(true) : setEmailIsValid(false);
+    isEmailValid(event.target.value);
   };
   const telefonoChanged = (event) => {
     setTelefono(event.target.value);
-    telefono == "" ? setTelefonoIsValid(true) : setTelefonoIsValid(false);
+    isPhoneValid(event.target.value);
   };
   const webChanged = (event) => {
     setWeb(event.target.value);
-    web == "" ? setWebIsValid(true) : setWebIsValid(false);
   };
   const mensajeChanged = (event) => {
     setMensaje(event.target.value);
-    mensaje == "" ? setMensajeIsValid(true) : setMensajeIsValid(false);
+    isMessageValid(event.target.value);
   };
 
-  const submit = () => {
-    let validationError = false;
+  const isEmailValid = (value) => {
     const validEmail = new RegExp(
       "^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$"
     );
+
+    if (!value || !validEmail.test(value)) {
+      setEmailIsInvalid(true);
+      return false;
+    }
+    setEmailIsInvalid(false);
+    return true;
+  };
+
+  const isPhoneValid = (value) => {
     const validPhone = new RegExp(
       "^[+]?[(]?[0-9]{3}[)]?[-s.]?[0-9]{3}[-s.]?[0-9]{4,6}$"
     );
 
-    nombre == "" ? setNombreIsValid(true) : setNombreIsValid(false);
-    email == "" ? setEmailIsValid(true) : setEmailIsValid(false);
-    telefono == "" ? setTelefonoIsValid(true) : setTelefonoIsValid(false);
-    web == "" ? setWebIsValid(true) : setWebIsValid(false);
-    mensaje == "" ? setMensajeIsValid(true) : setMensajeIsValid(false);
+    // may be undefined
+    if (value && !validPhone.test(value)) {
+      setTelephoneIsInvalid(true);
+      return false;
+    }
+    setTelephoneIsInvalid(false);
+    return true;
+  };
 
-    if (
-      nombre == "" ||
-      email == "" ||
-      telefono == "" ||
-      web == "" ||
-      mensaje == ""
-    ) {
-      validationError = true;
+  const isNameValid = (value) => {
+    if (!value) {
+      setNombreIsInvalid(true);
+      return false;
     }
-    if (!validEmail.test(email)) {
-      setEmailIsValid(false);
-      validationError = true;
+    setNombreIsInvalid(false);
+    return true;
+  };
+
+  const isMessageValid = (value) => {
+    if (!value) {
+      setMensajeIsInvalid(true);
+      return false;
     }
-    if (!validPhone.test(telefono)) {
-      setTelefonoIsValid(false);
-      validationError = true;
+    setMensajeIsInvalid(false);
+    return true;
+  };
+
+  const isInputValid = () => {
+    return (
+      isEmailValid(email) &&
+      isPhoneValid(telefono) &&
+      isNameValid(nombre) &&
+      isMessageValid(mensaje) &&
+      checked1 &&
+      checked2
+    );
+  };
+
+  const submit = async () => {
+    if (!isInputValid()) {
+      return;
     }
 
     // call to backend
-    fetch("http://localhost:3000/ajax/SendMail.php", {
+    await fetch("https://albertomilla.com/api/SendMail.php", {
       method: "POST",
-      body: {
+      body: JSON.stringify({
         nombre,
         email,
         telefono,
         mensaje,
         url: web,
         c_enviar: "Enviar mensaje",
-      },
+      }),
     });
   };
 
@@ -103,7 +136,7 @@ function Contacto() {
           required
           style={{ marginBottom: "20px" }}
           className="w-3/4 self-center"
-          error={nombreIsValid}
+          error={nombreIsInvalid}
           value={nombre}
           onChange={nombreChanged}
         />
@@ -112,7 +145,7 @@ function Contacto() {
           required
           style={{ marginBottom: "20px" }}
           className="w-3/4 self-center"
-          error={emailIsValid}
+          error={emailIsInvalid}
           value={email}
           onChange={emailChanged}
         />
@@ -120,7 +153,7 @@ function Contacto() {
           label="Tu web"
           style={{ marginBottom: "20px" }}
           className="w-3/4 mb-5 self-center"
-          error={webIsValid}
+          error={false}
           value={web}
           onChange={webChanged}
         />
@@ -128,7 +161,7 @@ function Contacto() {
           label="Tu telefono"
           style={{ marginBottom: "20px" }}
           className="w-3/4 mb-5 self-center"
-          error={telefonoIsValid}
+          error={telephoneIsInvalid}
           value={telefono}
           onChange={telefonoChanged}
         />
@@ -138,27 +171,31 @@ function Contacto() {
           multiline
           rows={10}
           className="w-3/4 mb-5 self-center"
-          error={mensajeIsValid}
+          error={mensajeIsInvalid}
           value={mensaje}
           onChange={mensajeChanged}
         />
-        <div className="w-3/4 self-center text-xs">
+        <div
+          className={`w-3/4 self-center text-xs ${
+            checked1 ? "" : "text-red-600"
+          }`}
+        >
           <Checkbox
             checked={checked1}
-            onChange={(event) => {
-              setChecked1(!checked1);
-            }}
+            onChange={checkbox1Changed}
             size="small"
             required
           />
           He leído y acepto la Política de Privacidad
         </div>
-        <div className="w-3/4 mb-5 self-center text-xs">
+        <div
+          className={`w-3/4 mb-5 self-center text-xs ${
+            checked2 ? "" : "text-red-600"
+          }`}
+        >
           <Checkbox
             checked={checked2}
-            onChange={(event) => {
-              setChecked2(!checked2);
-            }}
+            onChange={checkbox2Changed}
             size="small"
             required
           />
@@ -166,7 +203,11 @@ function Contacto() {
           comunicaciones comerciales de ALBERTO MILLA, S.L. por medios
           electrónicos
         </div>
-        <Button variant="outlined" className="mb-5 self-center h-12 w-3/4">
+        <Button
+          variant="outlined"
+          className="mb-5 self-center h-12 w-3/4"
+          onClick={submit}
+        >
           Enviar
         </Button>
       </Box>
