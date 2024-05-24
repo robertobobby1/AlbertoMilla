@@ -1,9 +1,6 @@
 import { useContext, useEffect } from "react";
 import { NavigationBarContext } from "../../../components/navigationbar/NavigationBarContext";
-import {
-  computerImages,
-  phoneImages,
-} from "../../../imageimports/carrousel/Privado/ComedorConsum";
+import { images } from "../../../imageimports/carrousel/Privado/ComedorConsum";
 import ProjectGallery from "../../../components/ProjectGallery/ProjectGallery";
 
 function ComedorConsum() {
@@ -13,9 +10,7 @@ function ComedorConsum() {
     setSecondLevelNav(true);
   }, []);
 
-  return (
-    <ProjectGallery computerImages={computerImages} phoneImages={phoneImages} />
-  );
+  return <ProjectGallery images={images} />;
 }
 
 export default ComedorConsum;

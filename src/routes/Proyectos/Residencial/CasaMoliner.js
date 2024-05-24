@@ -1,8 +1,5 @@
 import { useEffect, useContext } from "react";
-import {
-  computerImages,
-  phoneImages,
-} from "../../../imageimports/carrousel/Residencial/CasaMoliner";
+import { images } from "../../../imageimports/carrousel/Residencial/CasaMoliner";
 import { NavigationBarContext } from "../../../components/navigationbar/NavigationBarContext";
 import ProjectGallery from "../../../components/ProjectGallery/ProjectGallery";
 
@@ -13,9 +10,7 @@ function CasaMoliner() {
     setSecondLevelNav(true);
   }, []);
 
-  return (
-    <ProjectGallery computerImages={computerImages} phoneImages={phoneImages} />
-  );
+  return <ProjectGallery images={images} />;
 }
 
 export default CasaMoliner;

@@ -1,8 +1,8 @@
-import publicoImage1 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CASALJOVESILLA.webp";
-import publicoImage2 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CENTRODEFORMACIONSILLA.webp";
-import publicoImage3 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CENTROMULTIFUNCIONALCARMENVALERO.webp";
-import publicoImage4 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/POLIDEPORTIVOXIRIVELLA.webp";
-import publicoImage5 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/COBERTADEPATINATGE.webp";
+import publicoImage1 from "../../images/PORTADA/EQUIPAMIENTOPUBLICO/CASALJOVESILLA.webp";
+import publicoImage2 from "../../images/PORTADA/EQUIPAMIENTOPUBLICO/CENTRODEFORMACIONSILLA.webp";
+import publicoImage3 from "../../images/PORTADA/EQUIPAMIENTOPUBLICO/CENTROMULTIFUNCIONALCARMENVALERO.webp";
+import publicoImage4 from "../../images/PORTADA/EQUIPAMIENTOPUBLICO/POLIDEPORTIVOXIRIVELLA.webp";
+import publicoImage5 from "../../images/PORTADA/EQUIPAMIENTOPUBLICO/COBERTADEPATINATGE.webp";
 
 const publicoImages = [
   {

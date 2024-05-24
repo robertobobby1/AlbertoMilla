@@ -1,9 +1,6 @@
 import { useContext, useEffect } from "react";
 import { NavigationBarContext } from "../../../components/navigationbar/NavigationBarContext";
-import {
-  computerImages,
-  phoneImages,
-} from "../../../imageimports/carrousel/Residencial/CasaAlcudia";
+import { images } from "../../../imageimports/carrousel/Residencial/CasaAlcudia";
 import ProjectGallery from "../../../components/ProjectGallery/ProjectGallery";
 
 function CasaAlcudia() {
@@ -13,9 +10,7 @@ function CasaAlcudia() {
     setSecondLevelNav(true);
   }, []);
 
-  return (
-    <ProjectGallery computerImages={computerImages} phoneImages={phoneImages} />
-  );
+  return <ProjectGallery images={images} />;
 }
 
 export default CasaAlcudia;

@@ -1,8 +1,5 @@
 import { useEffect, useContext } from "react";
-import {
-  computerImages,
-  phoneImages,
-} from "../../../imageimports/carrousel/Residencial/VillaCarmen";
+import { images } from "../../../imageimports/carrousel/Residencial/VillaCarmen";
 import { NavigationBarContext } from "../../../components/navigationbar/NavigationBarContext";
 import ProjectGallery from "../../../components/ProjectGallery/ProjectGallery";
 
@@ -13,9 +10,7 @@ function VillaCarmen() {
     setSecondLevelNav(true);
   }, []);
 
-  return (
-    <ProjectGallery computerImages={computerImages} phoneImages={phoneImages} />
-  );
+  return <ProjectGallery images={images} />;
 }
 
 export default VillaCarmen;

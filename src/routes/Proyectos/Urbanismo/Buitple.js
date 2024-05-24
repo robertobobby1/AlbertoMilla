@@ -1,9 +1,6 @@
 import { useContext, useEffect } from "react";
 import { NavigationBarContext } from "../../../components/navigationbar/NavigationBarContext";
-import {
-  computerImages,
-  phoneImages,
-} from "../../../imageimports/carrousel/Urbanismo/Buitple";
+import { images } from "../../../imageimports/carrousel/Urbanismo/Buitple";
 import ProjectGallery from "../../../components/ProjectGallery/ProjectGallery";
 
 function Buitple() {
@@ -13,9 +10,7 @@ function Buitple() {
     setSecondLevelNav(true);
   }, []);
 
-  return (
-    <ProjectGallery computerImages={computerImages} phoneImages={phoneImages} />
-  );
+  return <ProjectGallery images={images} />;
 }
 
 export default Buitple;

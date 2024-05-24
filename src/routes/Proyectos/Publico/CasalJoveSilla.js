@@ -1,9 +1,6 @@
 import { useContext, useEffect } from "react";
 import { NavigationBarContext } from "../../../components/navigationbar/NavigationBarContext";
-import {
-  computerImages,
-  phoneImages,
-} from "../../../imageimports/carrousel/Publico/CasalJoveSilla";
+import { images } from "../../../imageimports/carrousel/Publico/CasalJoveSilla";
 import ProjectGallery from "../../../components/ProjectGallery/ProjectGallery";
 
 function CasalJoveSilla() {
@@ -13,9 +10,7 @@ function CasalJoveSilla() {
     setSecondLevelNav(true);
   }, []);
 
-  return (
-    <ProjectGallery computerImages={computerImages} phoneImages={phoneImages} />
-  );
+  return <ProjectGallery images={images} />;
 }
 
 export default CasalJoveSilla;

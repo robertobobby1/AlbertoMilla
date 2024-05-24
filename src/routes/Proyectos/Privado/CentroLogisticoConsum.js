@@ -1,9 +1,6 @@
 import { useContext, useEffect } from "react";
 import { NavigationBarContext } from "../../../components/navigationbar/NavigationBarContext";
-import {
-  computerImages,
-  phoneImages,
-} from "../../../imageimports/carrousel/Privado/CentroLogisticoConsum";
+import { images } from "../../../imageimports/carrousel/Privado/CentroLogisticoConsum";
 import ProjectGallery from "../../../components/ProjectGallery/ProjectGallery";
 
 function CentroLogisticoCosum() {
@@ -13,9 +10,7 @@ function CentroLogisticoCosum() {
     setSecondLevelNav(true);
   }, []);
 
-  return (
-    <ProjectGallery computerImages={computerImages} phoneImages={phoneImages} />
-  );
+  return <ProjectGallery images={images} />;
 }
 
 export default CentroLogisticoCosum;

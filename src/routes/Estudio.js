@@ -1,10 +1,7 @@
 import { useContext, useEffect } from "react";
 import { NavigationBarContext } from "../components/navigationbar/NavigationBarContext";
 import ProjectGallery from "../components/ProjectGallery/ProjectGallery";
-import {
-  computerImages,
-  phoneImages,
-} from "../imageimports/carrousel/Privado/EstudioDeArquitectura";
+import { images } from "../imageimports/carrousel/Privado/EstudioDeArquitectura";
 
 function Estudio() {
   const { secondLevelNav, setSecondLevelNav } =
@@ -15,10 +12,7 @@ function Estudio() {
 
   return (
     <div>
-      <ProjectGallery
-        computerImages={computerImages}
-        phoneImages={phoneImages}
-      />
+      <ProjectGallery images={images} />
       <div
         style={{
           display: "flex",

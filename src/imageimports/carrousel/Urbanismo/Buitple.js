@@ -1,17 +1,6 @@
-import computerImage1 from '../../../images/modified/URBANISMO/BUITPLE/1.webp';
-import computerImage2 from '../../../images/modified/URBANISMO/BUITPLE/2.webp';
+import image1 from "../../../images/originals/URBANISMO/BUITPLE/1.webp";
+import image2 from "../../../images/originals/URBANISMO/BUITPLE/2.webp";
 
-import phoneImage1 from '../../../images/originals/URBANISMO/BUITPLE/1.webp';
-import phoneImage2 from '../../../images/originals/URBANISMO/BUITPLE/2.webp';
+const images = [image1, image2];
 
-const computerImages = [
-  computerImage1,
-  computerImage2,
-];
-
-const phoneImages = [
-  phoneImage1,
-  phoneImage2,
-];
-
-export { computerImages, phoneImages };
+export { images };

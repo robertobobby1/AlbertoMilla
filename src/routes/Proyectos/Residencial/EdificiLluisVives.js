@@ -1,9 +1,6 @@
 import { useContext, useEffect } from "react";
 import { NavigationBarContext } from "../../../components/navigationbar/NavigationBarContext";
-import {
-  computerImages,
-  phoneImages,
-} from "../../../imageimports/carrousel/Residencial/EdificiLluisVives";
+import { images } from "../../../imageimports/carrousel/Residencial/EdificiLluisVives";
 import ProjectGallery from "../../../components/ProjectGallery/ProjectGallery";
 
 function EdificiLluisVives() {
@@ -13,9 +10,7 @@ function EdificiLluisVives() {
     setSecondLevelNav(true);
   }, []);
 
-  return (
-    <ProjectGallery computerImages={computerImages} phoneImages={phoneImages} />
-  );
+  return <ProjectGallery images={images} />;
 }
 
 export default EdificiLluisVives;

@@ -1,7 +1,7 @@
-import privadoImage1 from "../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/CENTROLOGISTICOCONSUM.webp";
-import privadoImage2 from "../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/COMEDORCONSUM.webp";
-import privadoImage3 from "../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/ESTUDIODEARQUITECTURA.webp";
-import privadoImage4 from "../../images/modified/PORTADA/EQUIPAMIENTOPRIVADO/JOYERIA.webp";
+import privadoImage1 from "../../images/PORTADA/EQUIPAMIENTOPRIVADO/CENTROLOGISTICOCONSUM.webp";
+import privadoImage2 from "../../images/PORTADA/EQUIPAMIENTOPRIVADO/COMEDORCONSUM.webp";
+import privadoImage3 from "../../images/PORTADA/EQUIPAMIENTOPRIVADO/ESTUDIODEARQUITECTURA.webp";
+import privadoImage4 from "../../images/PORTADA/EQUIPAMIENTOPRIVADO/JOYERIA.webp";
 
 const privadoImages = [
   {

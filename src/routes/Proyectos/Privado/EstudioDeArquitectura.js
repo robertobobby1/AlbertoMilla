@@ -1,9 +1,6 @@
 import { useContext, useEffect } from "react";
 import { NavigationBarContext } from "../../../components/navigationbar/NavigationBarContext";
-import {
-  computerImages,
-  phoneImages,
-} from "../../../imageimports/carrousel/Privado/EstudioDeArquitectura";
+import { images } from "../../../imageimports/carrousel/Privado/EstudioDeArquitectura";
 import ProjectGallery from "../../../components/ProjectGallery/ProjectGallery";
 
 function EstudioDeArquitectura() {
@@ -13,9 +10,7 @@ function EstudioDeArquitectura() {
     setSecondLevelNav(true);
   }, []);
 
-  return (
-    <ProjectGallery computerImages={computerImages} phoneImages={phoneImages} />
-  );
+  return <ProjectGallery images={images} />;
 }
 
 export default EstudioDeArquitectura;
