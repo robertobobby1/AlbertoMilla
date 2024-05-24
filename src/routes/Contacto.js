@@ -114,17 +114,17 @@ function Contacto() {
       return;
     }
 
+    const data = new FormData();
+    data.append("nombre", nombre);
+    data.append("email", email);
+    data.append("telefono", telefono);
+    data.append("mensaje", web);
+    data.append("cenviar", "Enviar mensaje");
+
     // call to backend
-    await fetch("https://albertomilla.com/api/SendMail.php", {
+    const response = await fetch("https://albertomilla.com/api/SendMail.php", {
       method: "POST",
-      body: JSON.stringify({
-        nombre,
-        email,
-        telefono,
-        mensaje,
-        url: web,
-        c_enviar: "Enviar mensaje",
-      }),
+      body: data,
     });
   };
 

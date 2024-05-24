@@ -25,8 +25,8 @@ function ComputerProjectGallery({ ReactImages }) {
       <Carousel
         data={data}
         time={2000}
-        width="1344px"
-        height="672px"
+        width="1200px"
+        height="600px"
         captionStyle={captionStyle}
         radius="10px"
         slideNumber={true}
@@ -36,16 +36,13 @@ function ComputerProjectGallery({ ReactImages }) {
         dots={true}
         pauseIconColor="white"
         pauseIconSize="40px"
-        slideBackgroundColor="darkgrey"
-        slideImageFit="cover"
-        thumbnails={true}
-        thumbnailWidth="100px"
+        slideBackgroundColor="white"
+        slideImageFit="contain"
         style={{
           textAlign: "center",
-          maxWidth: "1344px",
-          maxHeight: "672px",
+          maxWidth: "1200px",
+          maxHeight: "600px",
           margin: "40px auto",
-          marginBottom: "100px",
         }}
       />
     </div>
