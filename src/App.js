@@ -25,6 +25,7 @@ import CasalJoveSilla from "./routes/Proyectos/Publico/CasalJoveSilla";
 import CentroDeFormacionSilla from "./routes/Proyectos/Publico/CentroDeFormacionSilla";
 import CentroMultifuncionalCarmenValero from "./routes/Proyectos/Publico/CentroMultifuncionalCarmenValero";
 import PolideportivoXirivella from "./routes/Proyectos/Publico/PolideportivoXirivella";
+import CobertaDePatinatge from "./routes/Proyectos/Publico/CobertaDePatinatge";
 // residencial
 import CasaAlbereda from "./routes/Proyectos/Residencial/CasaAlbereda";
 import CasaBodi from "./routes/Proyectos/Residencial/CasaBodi";
@@ -93,6 +94,10 @@ const router = createBrowserRouter([
       {
         path: "/Proyectos/Publico/PolideportivoXirivella",
         element: <PolideportivoXirivella />,
+      },
+      {
+        path: "/Proyectos/Publico/CobertaDePatinatge",
+        element: <CobertaDePatinatge />,
       },
       /** Routes for Project galleries (Residencial)*/
       {

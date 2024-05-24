@@ -1,32 +1,32 @@
-import { Carousel } from 'react-carousel-minimal';
-import * as React from 'react';
+import { Carousel } from "react-carousel-minimal";
+import * as React from "react";
 
-function ComputerProjectGallery({ReactImages}) {
-  let data = []
+function ComputerProjectGallery({ ReactImages }) {
+  let data = [];
   for (let i = 0; i < ReactImages.length; i++) {
-    data.push({image: ReactImages[i], caption: ''})
+    data.push({ image: ReactImages[i], caption: "" });
   }
 
   const captionStyle = {
-    fontSize: '2em',
-    fontWeight: 'bold',
+    fontSize: "2em",
+    fontWeight: "bold",
   };
   const slideNumberStyle = {
-    fontSize: '20px',
-    fontWeight: 'bold',
+    fontSize: "20px",
+    fontWeight: "bold",
   };
 
   return (
     <div
       style={{
-        margin: '30px 30px',
+        margin: "30px 30px",
       }}
     >
       <Carousel
         data={data}
         time={2000}
-        width="850px"
-        height="500px"
+        width="1344px"
+        height="672px"
         captionStyle={captionStyle}
         radius="10px"
         slideNumber={true}
@@ -41,11 +41,11 @@ function ComputerProjectGallery({ReactImages}) {
         thumbnails={true}
         thumbnailWidth="100px"
         style={{
-          textAlign: 'center',
-          maxWidth: '850px',
-          maxHeight: '500px',
-          margin: '40px auto',
-          marginBottom: "100px"
+          textAlign: "center",
+          maxWidth: "1344px",
+          maxHeight: "672px",
+          margin: "40px auto",
+          marginBottom: "100px",
         }}
       />
     </div>

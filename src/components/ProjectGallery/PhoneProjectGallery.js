@@ -1,12 +1,12 @@
-import ResponsiveGallery from 'react-responsive-gallery';
-import * as React from 'react';
+import ResponsiveGallery from "react-responsive-gallery";
+import * as React from "react";
 
 const widthSizes = {
-  xs: '700',
-  s: '710',
-  m: '800',
-  l: '992',
-  xl: '1200',
+  xs: "900",
+  s: "900",
+  m: "900",
+  l: "900",
+  xl: "900",
 };
 
 const imagePaddings = {
@@ -18,22 +18,22 @@ const imagePaddings = {
   xxl: 10,
 };
 
-function PhoneProjectGallery({ReactImages}) {
-  let data = []
+function PhoneProjectGallery({ ReactImages }) {
+  let data = [];
   for (let i = 0; i < ReactImages.length; i++) {
-    data.push({src: ReactImages[i]})
+    data.push({ src: ReactImages[i] });
   }
 
   return (
     <div
       style={{
-        padding: '10px 10px 0px 10px',
+        padding: "10px 10px 0px 10px",
       }}
     >
       <ResponsiveGallery
         imagesPaddingBottom={imagePaddings}
         screenWidthSizes={widthSizes}
-        imagesStyle={'centerImage'}
+        imagesStyle={"centerImage"}
         images={data}
       />
     </div>

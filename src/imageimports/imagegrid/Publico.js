@@ -2,6 +2,7 @@ import publicoImage1 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CAS
 import publicoImage2 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CENTRODEFORMACIONSILLA.webp";
 import publicoImage3 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CENTROMULTIFUNCIONALCARMENVALERO.webp";
 import publicoImage4 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/POLIDEPORTIVOXIRIVELLA.webp";
+import publicoImage5 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/COBERTADEPATINATGE.webp";
 
 const publicoImages = [
   {
@@ -23,6 +24,11 @@ const publicoImages = [
     src: publicoImage4,
     route: "/Proyectos/Publico/PolideportivoXirivella",
     name: "Polideportivo Xirivella",
+  },
+  {
+    src: publicoImage5,
+    route: "/Proyectos/Publico/CobertaDePatinatge",
+    name: "Coberta de Patinatge",
   },
 ];
 

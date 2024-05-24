@@ -6,6 +6,7 @@ import proyectosImage5 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/C
 import proyectosImage6 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CENTRODEFORMACIONSILLA.webp";
 import proyectosImage7 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/CENTROMULTIFUNCIONALCARMENVALERO.webp";
 import proyectosImage8 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/POLIDEPORTIVOXIRIVELLA.webp";
+import proyectosImage25 from "../../images/modified/PORTADA/EQUIPAMIENTOPUBLICO/COBERTADEPATINATGE.webp";
 import proyectosImage9 from "../../images/modified/PORTADA/RESIDENCIAL/CASAALBEREDA.webp";
 import proyectosImage10 from "../../images/modified/PORTADA/RESIDENCIAL/CASACENTREHISTORIC.webp";
 import proyectosImage11 from "../../images/modified/PORTADA/RESIDENCIAL/CASAHORTS.webp";
@@ -62,6 +63,11 @@ const proyectosImages = [
     src: proyectosImage8,
     route: "/Proyectos/Publico/PolideportivoXirivella",
     name: "Polideportivo Xirivella",
+  },
+  {
+    src: proyectosImage25,
+    route: "/Proyectos/Publico/CobertaDePatinatge",
+    name: "Coberta de Patinatge",
   },
   {
     src: proyectosImage9,

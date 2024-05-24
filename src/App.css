@@ -3,15 +3,16 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'futuraltbt';
-  src: url('./fonts/FuturaBT-Light.woff') format('woff'),
-       url('./fonts/FUTURAL.TTF') format('truetype');
+  font-family: "futuraltbt";
+  src:
+    url("./fonts/FuturaBT-Light.woff") format("woff"),
+    url("./fonts/FUTURAL.TTF") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
-body{
+body {
   font-family: futuraltbt !important;
 }
 
@@ -61,7 +62,6 @@ body{
 .center {
   background: white;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .center a:hover {
@@ -75,37 +75,37 @@ body{
   font-size: 15px;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
   .center a {
-      font-size: 10px;
+    font-size: 10px;
   }
 }
-@media only screen and (max-width: 767px) and (min-width: 401px){
+@media only screen and (max-width: 767px) and (min-width: 401px) {
   .center a {
-      font-size: 12px;
+    font-size: 12px;
   }
 }
 
-.inactive{
+.inactive {
   display: none;
 }
 
-#logoImage{
+#logoImage {
   max-width: 30% !important;
   justify-self: center;
   max-height: 90px;
 }
 
-.footerMargin{
+.footerMargin {
   justify-content: center;
   display: flex;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
-.footer{
+.footer {
   display: grid;
   place-items: center;
-  row-gap: 1rem;
+  row-gap: 0.2rem;
 }
 
 .footer > nav {
@@ -121,8 +121,8 @@ body{
 }
 
 .hoverable-text-image:hover .hoverable-text {
-    opacity: 1;
-    transition: 0.8s all;
+  opacity: 1;
+  transition: 0.8s all;
 }
 
 .hoverable-text-image:hover {
