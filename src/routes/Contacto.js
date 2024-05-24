@@ -4,6 +4,11 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import Checkbox from "@mui/material/Checkbox";
+import { Alert } from "@mui/material";
+
+const AlertErrorMessage = "Ha habido un problema enviando el correo";
+const AlertValidationErrorMessage = "Rellena los datos correctamente";
+const AlertSuccessMessage = "El correo se ha enviado correctamente";
 
 function Contacto() {
   const { secondLevelNav, setSecondLevelNav } =
@@ -11,6 +16,10 @@ function Contacto() {
   useEffect(() => {
     setSecondLevelNav(false);
   }, []);
+
+  const [alertMessage, setAlertMessage] = useState(AlertSuccessMessage);
+  const [severity, setSeverity] = useState("success");
+  const [showAlert, setShowAlert] = useState(false);
 
   const [checked1, setChecked1] = useState(false);
   const [checked2, setChecked2] = useState(false);
@@ -109,8 +118,19 @@ function Contacto() {
     );
   };
 
+  const resetForm = () => {
+    setEmail("");
+    setNombre("");
+    setMensaje("");
+    setWeb("");
+    setTelefono("");
+  };
+
   const submit = async () => {
     if (!isInputValid()) {
+      setSeverity("error");
+      setAlertMessage(AlertValidationErrorMessage);
+      setShowAlert(true);
       return;
     }
 
@@ -123,10 +143,22 @@ function Contacto() {
     data.append("cenviar", "Enviar mensaje");
 
     // call to backend
-    const response = await fetch("https://albertomilla.com/api/SendMail.php", {
+    fetch("https://albertomilla.com/api/SendMail.php", {
       method: "POST",
       body: data,
-    });
+    })
+      .catch((err) => {
+        setAlertMessage(AlertErrorMessage);
+        setSeverity("error");
+        setShowAlert(true);
+        resetForm();
+      })
+      .then((res) => {
+        setAlertMessage(AlertSuccessMessage);
+        setSeverity("success");
+        setShowAlert(true);
+        resetForm();
+      });
   };
 
   return (
@@ -211,6 +243,18 @@ function Contacto() {
         >
           Enviar
         </Button>
+        {showAlert && (
+          <Alert
+            className="self-center w-3/4"
+            severity={severity}
+            style={{ marginTop: "20px" }}
+            onClose={() => {
+              setShowAlert(false);
+            }}
+          >
+            {alertMessage}
+          </Alert>
+        )}
       </Box>
     </div>
   );
