@@ -37,7 +37,7 @@ const proyectosImages = [
   {
     src: proyectosImage1,
     route: "/Proyectos/Privado/CentroLogisticoConsum",
-    name: "Centro Logistico Consum",
+    name: "Sede y Centro Logistico Consum",
   },
   {
     src: proyectosImage22,
