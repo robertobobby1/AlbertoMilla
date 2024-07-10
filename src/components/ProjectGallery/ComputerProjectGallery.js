@@ -31,7 +31,7 @@ function ComputerProjectGallery({ ReactImages }) {
     >
       <Carousel
         data={data}
-        time={2000}
+        time={8000}
         width="1200px"
         height="600px"
         captionStyle={captionStyle}
