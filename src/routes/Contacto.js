@@ -30,10 +30,10 @@ function Contacto() {
   const [telefono, setTelefono] = useState("");
   const [mensaje, setMensaje] = useState("");
 
-  const [nombreIsInvalid, setNombreIsInvalid] = useState(true);
-  const [emailIsInvalid, setEmailIsInvalid] = useState(true);
+  const [nombreIsInvalid, setNombreIsInvalid] = useState(false);
+  const [emailIsInvalid, setEmailIsInvalid] = useState(false);
   const [telephoneIsInvalid, setTelephoneIsInvalid] = useState(false);
-  const [mensajeIsInvalid, setMensajeIsInvalid] = useState(true);
+  const [mensajeIsInvalid, setMensajeIsInvalid] = useState(false);
 
   const checkbox1Changed = (event) => {
     setChecked1(event.target.checked);
@@ -107,6 +107,13 @@ function Contacto() {
     return true;
   };
 
+  const validate = () => {
+    isEmailValid(email);
+    isPhoneValid(telefono);
+    isNameValid(nombre);
+    isMessageValid(mensaje);
+  };
+
   const isInputValid = () => {
     return (
       isEmailValid(email) &&
@@ -128,6 +135,7 @@ function Contacto() {
 
   const submit = async () => {
     if (!isInputValid()) {
+      validate();
       setSeverity("error");
       setAlertMessage(AlertValidationErrorMessage);
       setShowAlert(true);

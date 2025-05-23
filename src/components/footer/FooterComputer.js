@@ -56,26 +56,19 @@ function FooterComputer() {
         <div>
           <div>
             <Link to="/Politicas/AvisoLegal">
-              {" "}
-              <a className="link link-hover inline-block mx-3">
-                Aviso legal
-              </a>{" "}
+              <a className="link link-hover inline-block mx-3">Aviso legal</a>
             </Link>
             <Link to="/Politicas/PoliticaDePrivacidad">
-              {" "}
-              <a className="link link-hover inline-block mx-3">
-                Privacidad
-              </a>{" "}
+              <a className="link link-hover inline-block mx-3">Privacidad</a>
             </Link>
             <Link to="/Politicas/PoliticaDeCookies">
-              {" "}
-              <a className="link link-hover inline-block mx-3">Cookies</a>{" "}
+              <a className="link link-hover inline-block mx-3">Cookies</a>
             </Link>
             <Link to="/Politicas/Newsletter">
-              {" "}
-              <a className="link link-hover inline-block mx-3">
-                Newsletter
-              </a>{" "}
+              <a className="link link-hover inline-block mx-3">Newsletter</a>
+            </Link>
+            <Link to="/Politicas/Subvenciones">
+              <a className="link link-hover inline-block mx-3">Subvenciones</a>
             </Link>
           </div>
         </div>

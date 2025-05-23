@@ -48,6 +48,7 @@ import AvisoLegal from "./routes/Politicas/AvisoLegal";
 import Newsletter from "./routes/Politicas/Newsletter";
 import PoliticaDeCookies from "./routes/Politicas/PoliticaDeCookies";
 import PoliticaDePrivacidad from "./routes/Politicas/PoliticaDePrivacidad";
+import Subvenciones from "./routes/Politicas/Subvenciones";
 // other
 import Estudio from "./routes/Estudio";
 import Contacto from "./routes/Contacto";
@@ -142,8 +143,10 @@ const router = createBrowserRouter([
       },
       { path: "/Politicas/PoliticaDeCookies", element: <PoliticaDeCookies /> },
       { path: "/Politicas/Newsletter", element: <Newsletter /> },
+      { path: "/Politicas/Subvenciones", element: <Subvenciones /> },
       /** Routes for other*/
       { path: "/Estudio", element: <Estudio /> },
+      { path: "/Contacto", element: <Contacto /> },
       { path: "/Contacto", element: <Contacto /> },
     ],
   },

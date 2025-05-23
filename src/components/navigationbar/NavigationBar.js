@@ -4,10 +4,9 @@ import { NavigationBarContext } from "./NavigationBarContext";
 import { useContext } from "react";
 
 function NavigationBar() {
-  const { secondLevelNav, setSecondLevelNav } =
-    useContext(NavigationBarContext);
+  const { secondLevelNav, hideNavBar } = useContext(NavigationBarContext);
 
-  return (
+  return !hideNavBar ? (
     <div>
       <div className="flex">
         <img className="w-24 invisible" />
@@ -65,7 +64,7 @@ function NavigationBar() {
         </div>
       ) : null}
     </div>
-  );
+  ) : null;
 }
 
 export default NavigationBar;
